@@ -1,0 +1,19 @@
+Algorithms
+
+
+1)Sorting Algorithms
+	a)Selection Sort
+	b)Bubble Sort
+	c)Insertion Sort
+	d)Merge Sort
+	e)Quick sort
+	f)Heap sort
+	g)Comb sort
+	h)Bucket sort
+
+2)Pathfinding Algorithms
+	a)DFS
+	b)BFS
+	c)Dijkstra
+	d)A*
+
