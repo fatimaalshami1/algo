@@ -1,10 +1,10 @@
 import React from 'react'
 import "./card.css"
 
-const Card =()=>{
+const SortingCard =()=>{
   return(
     <>
-    <div className='card'>
+    <div className='SortingCard'>
       <div className='cardImg'>
         <img src="https://embed-ssl.wistia.com/deliveries/70d6f4e10e2badb5ef394f00c17ad2bc1c14f6e7.jpg" alt="" />
       </div>
@@ -19,4 +19,4 @@ const Card =()=>{
   )
 };
 
-export default Card;
+export default SortingCard;

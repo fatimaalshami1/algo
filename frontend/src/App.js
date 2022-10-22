@@ -1,20 +1,26 @@
-import "./app.css"
-import Card from "./cards/Card";
+import "./App.css"
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 import TopBar from "./topbar/TopBar";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
+import Home from "./pages/home/Home"
+
+// importing the algorithm visualizer components
+import PrimeAlgorithm from "./pages/algoritms/prime/PrimeAlgorithm"
 
 function App() {
   return (
-    // <Router>
-      <header className="App-header">
-       
+    <BrowserRouter>
+       {/* Navigation bar */}
         <TopBar/>
-        <h1 className="text">ALGORITHM VISUALIZER</h1>
-        <h4 className="text1">Visualize Algoritm For Better Understanding</h4>
 
-        <Card/>
-      </header>
-    // </Router>
+        {/* Different routes */}
+        <Switch>
+          <Route exact path = "/"><Home/></Route>
+          <Route path = "/visualize-prime">
+            <PrimeAlgorithm/>
+          </Route>
+        </Switch>
+    </BrowserRouter>
   );
 }
 
