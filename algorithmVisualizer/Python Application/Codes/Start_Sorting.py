@@ -133,8 +133,8 @@ class Sorting:
                                          value=1, font=("Lucida Sans", 10, "bold"), command=self.draw_type, cursor="hand2")
         self.bar_drawing["activebackground"] = "#83A177"
         self.color_drawing["activebackground"] = "#83A177"
-        self.bar_drawing.place(relx=0.25, rely=0)
-        self.color_drawing.place(relx=0.5, rely=0)
+#         self.bar_drawing.place(relx=0.25, rely=0)
+#         self.color_drawing.place(relx=0.5, rely=0)
 
 
         # Creating a frame for a new button
